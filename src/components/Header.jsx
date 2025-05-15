@@ -5,10 +5,8 @@ import { FaInstagram } from "react-icons/fa";
 export default function Header() {
     return (
         <header className="flex items-center justify-between px-6 py-4 shadow-md bg-white sticky top-0 z-10">
-        <div className="text-2xl font-bold">
-            {/* <Logo className="h-10 w-auto" /> */}
-            <img src="logo.svg"  className="h-10 w-auto" />
-            {/* CafeLogo */}
+        <div className="text-4xl font-bold text-[#332411] tracking-wide">
+          Andhra Cafe
         </div>
         <nav className="space-x-6">
           <a href="#menu" className="hover:text-brown-600">Menu</a>
