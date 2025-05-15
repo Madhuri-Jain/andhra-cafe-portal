@@ -1,11 +1,13 @@
-import './App.css'
-import Home from './pages/Home'
+import './App.css';
+import HomePage from './pages/HomePage';
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <>
-      <h1 className="bg-green-100">Welcome to Andhra Cafe</h1>
-      <Home />
+      <HomePage />
+      <Footer />
     </>
   )
 }
