@@ -36,7 +36,7 @@ export default function HeroVideoReel() {
   };
 
   return (
-    <section className="relative w-full bg-black py-6 overflow-hidden">
+    <section className="relative w-full bg-[#332411] py-6 overflow-hidden">
       {/* Mobile + Tablet Carousel */}
       <div
         ref={containerRef}
@@ -57,7 +57,6 @@ export default function HeroVideoReel() {
       </div>
 
       {/* Dots overlay - clickable */}
-      //md:hidden flex justify-center mt-4 space-x-2
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 bg-black/30 px-3 py-1 rounded-full flex gap-2 md:hidden">
         {videos.map((_, index) => (
           <button
