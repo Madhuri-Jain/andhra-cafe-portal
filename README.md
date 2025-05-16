@@ -60,7 +60,7 @@ npm run dev
 ```
 
 ### Folder Structure
-
+```bash
 ├── public/
 ├── src/
 │   ├── assets/
@@ -77,7 +77,7 @@ npm run dev
 ├── tailwind.config.js
 ├── postcss.config.js
 └── vite.config.js
-
+```
 
 ### To-Do / Coming Soon
 - Implement React Router and finalize all internal navigation links
