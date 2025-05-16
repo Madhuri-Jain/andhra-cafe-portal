@@ -6,7 +6,7 @@ A modern, responsive, and elegant café website built using **React**, **Vite**,
 
 ## 🔗 Live Preview
 
-> Coming soon – can be hosted using Vercel or Netlify 
+> Coming soon – can be hosted using Vercel or AWS 
 
 ---
 
@@ -53,7 +53,46 @@ A modern, responsive, and elegant café website built using **React**, **Vite**,
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/andhra-cafe-portal.git
+git clone https://github.com/Madhuri-Jain/andhra-cafe-portal.git
 cd andhra-cafe-portal
 npm install
 npm run dev
+
+### Folder Structure
+
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── videos/         # All vertical video clips
+|   |   |── images/
+│   │   └── logo.svg        # Café logo
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── HeroVideoReel.jsx
+│   ├── pages/
+│   │   └── HomePage.jsx    # Main landing page layout
+│   └── App.jsx
+├── tailwind.config.js
+├── postcss.config.js
+└── vite.config.js
+
+
+### To-Do / Coming Soon
+- Implement React Router and finalize all internal navigation links
+- Set up development tools: ESLint and Prettier for code consistency
+- Optimize media (images/videos) for web — consider lightweight formats or hosting on S3 (TBD)
+- Refactor static content into dynamic variables wherever possible
+- Integrate with backend APIs (to be developed using FastAPI) (TBD)
+- Set up unit testing with Vitest
+- Expand and enrich the Menu section with detailed items
+- Add a Testimonials section to showcase customer feedback
+- Prepare for production deployment:
+    - Configure separate environments (development and production)
+    - Deploy to a public host (TBD — if AWS, CDK setup will also be included)
+
+###  Contributing
+This is a personal project for UI/UX experimentation. Contributions are welcome once the base is stable!
+
+###  License
+MIT – Free to use and adapt.
