@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Homepage() {
   return (
-    <div className="font-sans text-gray-800">
+    <div className="font-sans text-[#332411]">
       <Header />
       <HeroVideoReel />
       <Menu />
