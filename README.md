@@ -57,6 +57,7 @@ git clone https://github.com/Madhuri-Jain/andhra-cafe-portal.git
 cd andhra-cafe-portal
 npm install
 npm run dev
+```
 
 ### Folder Structure
 
