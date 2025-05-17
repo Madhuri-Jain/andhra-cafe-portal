@@ -36,7 +36,7 @@ export default function HeroVideoReel() {
   };
 
   return (
-    <section className="relative w-full bg-[#332411] py-6 overflow-hidden">
+    <section id="heroSection" className="relative w-full bg-[#332411] py-6 overflow-hidden">
       {/* Mobile + Tablet Carousel */}
       <div
         ref={containerRef}
@@ -88,11 +88,13 @@ export default function HeroVideoReel() {
       {/* Text Overlay */}
       <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white px-4 pointer-events-none">
         <h1 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-          Experience Andhra Flavours in Every Frame 🍛
+          Experience Flavours in Every Frame 🍛
         </h1>
-        <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-100 pointer-events-auto">
-          See Full Menu
-        </button>
+        <a href="#menu">
+          <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-100 pointer-events-auto">
+            See Full Menu
+          </button>
+        </a>
       </div>
     </section>
   );
